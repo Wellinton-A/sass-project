@@ -5,4 +5,79 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: #cccccc;
+}
+
+header {
+  background-color: #5c5b5c;
+  padding: 16px;
+}
+header .container {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+header .container h1 {
+  color: #cccccc;
+}
+
+.form-container {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-container form {
+  width: 100%;
+  max-width: 300px;
+}
+.form-container form h2 {
+  color: #5c5b5c;
+  font-size: 3em;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.form-container form label {
+  font-weight: bold;
+  color: #5c5b5c;
+}
+.form-container form input {
+  width: 100%;
+  border: none;
+  display: block;
+  margin: 24px auto;
+  background-color: #cccccc;
+  border-bottom: 2px solid #5c5b5c;
+  height: 5vh;
+  text-align: center;
+}
+.form-container form input:focus {
+  outline: none;
+  border-color: #5c5b5c;
+  text-align: center;
+}
+.form-container form button {
+  width: 100%;
+  border: none;
+  display: block;
+  margin: 24px auto;
+  padding: 10px 0;
+  font-weight: bold;
+  background-color: #5c5b5c;
+  color: #cccccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-container form button:hover {
+  background-color: #4d4d4d;
+}
+
+footer {
+  background-color: #5c5b5c;
+  color: #cccccc;
+}
+
 /*# sourceMappingURL=main.css.map */
